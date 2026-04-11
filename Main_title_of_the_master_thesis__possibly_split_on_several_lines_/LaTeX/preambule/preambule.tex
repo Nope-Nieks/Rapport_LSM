@@ -1,0 +1,23 @@
+% !TEX root = ../main.tex
+% =========================================================
+% PRÉAMBULE : PACKAGES ET CONFIGURATIONS AVANCÉES
+% =========================================================
+
+% --- Interligne ---
+\usepackage{setspace}
+\onehalfspacing % Interligne de 1.5 pour le confort de lecture
+
+% --- Mathématiques ---
+\usepackage{amsmath, amssymb} % Les standards pour les formules
+
+% --- En-têtes et Pieds de page ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % Nettoie l'en-tête par défaut
+\fancyfoot{} % Nettoie le pied de page
+\fancyfoot[C]{\thepage} % Numéro de page au centre
+
+% --- Bibliographie (Norme APA) ---
+\usepackage[backend=biber, style=apa, sorting=nyt, natbib=true]{biblatex}
+% N'oublie pas de spécifier le chemin de ta bibliographie :
+% \addbibresource{bib/references.bib}
