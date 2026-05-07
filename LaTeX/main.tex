@@ -9,10 +9,6 @@
 % 1. Sélection la(les) ligne(s) à (dé)commenter
 % 2. Windows : Ctrl + Shift + /  & IOS : command + shift + /
 
-% --- SÉLECTION DE LA LANGUE ---
-% Pour rédiger en français, décommentez la ligne suivante :
-% \selectlanguage{french}
-
 % =========================================================
 % 1. INFORMATIONS DU DOCUMENT
 % =========================================================
@@ -54,7 +50,13 @@
 % \input{preambule/preambule.tex}
 % \usepackage{setspace}
 
-\begin{document}
+\\begin{document}
+
+% --- SÉLECTION DE LA LANGUE ---
+% Le français est la langue par défaut.
+% Pour rédiger en anglais, décommentez la ligne suivante :
+% \selectlanguage{english}
+
 
 % =========================================================
 % 3. PAGES LIMINAIRES
@@ -65,6 +67,9 @@
 % \input{pages/02_remerciements.tex}
 
 \tableofcontents
+
+% --- Test pour vérifier que la langue est bien celle désirée ---
+% La langue actuellement comprise par LaTeX est : \languagename
 \newpage
 
 % =========================================================

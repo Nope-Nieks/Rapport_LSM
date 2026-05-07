@@ -53,7 +53,7 @@ For a compliant cover page, copy/paste the following titles into your `main.tex`
 ## Formatting Rules
 
 1.  **Names:** First name written normally, LAST NAME in small caps (e.g., `Firstname \textsc{Lastname}`).
-2.  **Language:** To switch the entire template to French, uncomment `\selectlanguage{french}` in `main.tex`.
+2.  **Language:** To switch the entire template to english, uncomment `\selectlanguage{english}` in `main.tex`.
 3.  **Order:** In the case of multiple authors or supervisors, alphabetical order is customary.
 4.  **Singular/Plural:** The template automatically detects if you have one or multiple authors/supervisors and adjusts the "Author(s)" or "Supervisor(s)" labels accordingly.
 
@@ -122,7 +122,7 @@ Pour une page de garde conforme, copiez/collez les intitulés suivants dans votr
 ## Règles de Rédaction
 
 1.  **Noms :** Le prénom s'écrit normalement, le NOM en petites capitales (ex: `Prénom \textsc{Nom}`).
-2.  **Langue :** Pour passer tout le template en français, décommentez `\selectlanguage{french}` dans le `main.tex`.
+2.  **Langue :** Pour passer tout le template en anglais, décommentez `\selectlanguage{english}` dans le `main.tex`.
 3.  **Ordre :** En cas d'auteurs ou de promoteurs multiples, respectez l'ordre alphabétique.
 4.  **Singulier/Pluriel :** Le template détecte automatiquement si vous avez un ou plusieurs auteurs/superviseurs et ajuste les mentions "Author(s)" ou "Supervisor(s)".
 
