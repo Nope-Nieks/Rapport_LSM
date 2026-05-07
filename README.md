@@ -10,6 +10,17 @@ This project provides a complete LaTeX environment for writing master's theses a
 
 ---
 
+## 🚀 Quick Start: How to Use This Template (For Beginners)
+
+If you are not familiar with GitHub or local LaTeX installations, the easiest way to use this template is via **Overleaf**:
+
+1. **Download the project:** On this GitHub page, click the green **"Code"** button near the top right, then select **"Download ZIP"**. Save the file to your computer.
+2. **Upload to Overleaf:** Go to [Overleaf](https://www.overleaf.com/) and log into your account.
+3. **Create the project:** Click on **"New Project"** -> **"Upload Project"** and select the ZIP file you just downloaded. Overleaf will automatically extract and set up the folders.
+4. **Follow the technical Instructions**
+
+---
+
 ## Technical Instructions
 
 ### 1. Compiler Configuration
@@ -76,7 +87,16 @@ Ce projet propose un environnement LaTeX complet pour la rédaction de mémoires
 * **Adaptation et Universalisation :** Nicolas Nopenaire
 * **Assistance IA :** L'optimisation du code et la structuration de ce template ont été réalisées avec l'aide de Google Gemini.
 
+---
 
+## 🚀 Guide Rapide : Comment télécharger et utiliser ce template (Pour les débutants)
+
+Si vous n'êtes pas familier avec GitHub ou avec l'installation de LaTeX sur votre ordinateur, la méthode la plus simple est d'utiliser **Overleaf** :
+
+1. **Télécharger le projet :** Sur cette page GitHub, cliquez sur le bouton vert **"Code"** en haut à droite, puis sélectionnez **"Download ZIP"**. Enregistrez le fichier sur votre ordinateur.
+2. **Importer sur Overleaf :** Allez sur [Overleaf](https://www.overleaf.com/) et connectez-vous à votre compte.
+3. **Créer le projet :** Cliquez sur **"New Project"** (Nouveau projet) -> **"Upload Project"** (Importer un projet) et sélectionnez le fichier ZIP que vous venez de télécharger. Overleaf va automatiquement extraire et organiser les dossiers.
+4. **Suivre les instructions techniques ci-dessous** 
 
 ---
 
