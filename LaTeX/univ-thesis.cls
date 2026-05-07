@@ -13,7 +13,7 @@
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage{color}
 \RequirePackage{geometry}
-\RequirePackage{tabto}		 % Tabulation
+\RequirePackage{tabto}     % Tabulation
 \RequirePackage{anyfontsize} % size of fonts
 
 % Commands for title, authors, dates, specialities,...
@@ -56,16 +56,16 @@
     
     % Define lengths
     \setlength{\tabAuthor}{
-		\ifdef{\@secondauthor}{1.7cm}{1.6cm}
-	}
+    \ifdef{\@secondauthor}{1.7cm}{1.6cm}
+  }
     \setlength{\tabSupervisor}{
-		\ifdef{\@secondsupervisor}{2.55cm}{2.45cm}
-	}
+    \ifdef{\@secondsupervisor}{2.55cm}{2.45cm}
+  }
  %    \setlength{\tabReader}{
-	% 	\ifdef{\@readertwo}{1.9cm}{1.8cm}
-	% }    
-	
-	\vspace*{9cm}
+  %   \ifdef{\@readertwo}{1.9cm}{1.8cm}
+  % }    
+  
+  \vspace*{9cm}
     
     % Title and subtitle
     \noindent
@@ -86,24 +86,26 @@
     \vfill
     \noindent \hspace{1.7cm}
     \begin{minipage}[l]{.85\textwidth}
-	  % authors
-      \ifdef{\@secondauthor}{Authors:}{Author:}{\bfseries
+    % authors
+      \ifdef{\@secondauthor}%
+        {\iflanguage{french}{Auteurs :}{Authors:}}%
+        {\iflanguage{french}{Auteur :}{Author:}}%
+        {\bfseries
         \tabto{\tabAuthor}\@author
         \ifdef{\@secondauthor}{, \@secondauthor}{}
         \ifdef{\@thirdauthor}{, \@thirdauthor}{}}
       \\
       % supervisors
-      \ifdef{\@secondsupervisor}{Supervisors:}{Supervisor:}{\bfseries
-		\tabto{\tabSupervisor}\@supervisor
-		\ifdef{\@secondsupervisor}{, \@secondsupervisor}{}\ifdef{\@thirdsupervisor}{, \@thirdsupervisor}{}}
-  %     % readers
-  %     \ifdef{\@readertwo}{Readers:}{Reader:}{\bfseries
-		% \tabto{\tabReader}\@readerone
-		% \ifdef{\@readertwo}{, \@readertwo}{}\ifdef{\@readerthree}{, \@readerthree}{}\ifdef{\@readerfour}{, \@readerfour}{}\ifdef{\@readerfive}{, \@readerfive}{}}
-	  \\
-	  % academic year
-	  Academic year \@years
-	  \\
+      \ifdef{\@secondsupervisor}%
+        {\iflanguage{french}{Promoteurs :}{Supervisors:}}%
+        {\iflanguage{french}{Promoteur :}{Supervisor:}}%
+        {\bfseries
+    \tabto{\tabSupervisor}\@supervisor
+    \ifdef{\@secondsupervisor}{, \@secondsupervisor}{}\ifdef{\@thirdsupervisor}{, \@thirdsupervisor}{}}
+    \\
+    % academic year
+    \iflanguage{french}{Année académique}{Academic year} \@years
+    \\
     % degree title
       \@degreetitle  
     \\
